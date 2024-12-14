@@ -1,5 +1,30 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
+
+* {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+}
+
+.icon-group {
+  display: flex;
+  align-items: center;
+  padding: 0 3rem;
+  column-gap: 1.5rem;
+}
+
+.icon {
+  text-decoration: none;
+  color: #C0C0C0;
+  font-size: 1.3rem;
+  transition: .5s;
+}
+
+.icon:hover {
+  color: #0056ce; 
+  transform: scale(1.2);
 }
 
 .App-logo {
@@ -14,7 +39,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #5688eb;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

@@ -1,0 +1,42 @@
+/* Default styles */
+.navbar-button-container {
+    color: #C0C0C0;
+    background-color: transparent;
+    font-size: large;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 1rem;
+    margin: 0 0.5rem;
+    transition: transform 0.3s, color 0.3s, background-color 0.3s;
+}
+
+.navbar-button-container:hover {
+    color: black;
+    background-color: #C0C0C0;
+}
+
+.navbar-button-container.active {
+    color: black;
+    background-color: #C0C0C0;;
+}
+
+
+
+/* Theme-specific styles */
+.elreyan-theme .navbar-button-container {
+    color: #bca875;
+    background-color: transparent;
+}
+
+.elreyan-theme .navbar-button-container:hover {
+    color: black;
+    background-color: #bca875;
+}
+
+.elreyan-theme {
+    color: #bca875;
+    background-color: #bca875;
+}

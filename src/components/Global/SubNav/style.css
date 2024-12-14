@@ -1,0 +1,40 @@
+.sub-navbar {
+    background-color: #1d1d1d;
+    background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    align-items: center; 
+    justify-content:center;
+    gap: 3rem;
+    height: 6vh;
+    z-index: 100;
+    padding: 0rem 1.5rem;
+    border-top: 1px solid #bca875;
+    border-bottom: 1px solid #bca875;
+}
+
+.elreyan-logo {
+    width: 9%;
+}
+
+.sub-navbar .button-group {
+    display: flex;
+    gap: 2rem;
+}
+
+.sub-navbar .button-group a {
+    color: #bca875;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-size: x-large;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    transform: transform .4s;
+}
+
+.sub-navbar .button-group a:hover {
+    color:#ffffff;
+    transform: scale(1.1);
+}
+
