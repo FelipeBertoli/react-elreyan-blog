@@ -1,4 +1,7 @@
-export {default as Navbar} from './Global/Navbar/index';
-export {default as SubNav} from './Global/SubNav/index';
-export {default as SectionTitle} from './Global/SectionTitle/index';
-export {default as Footer} from './Global/Footer/index'
+export {default as Header} from './Header/index';
+export {default as SectionTitle} from './SectionTitle/index';
+export {default as Footer} from './Footer/index';
+export {default as Card} from './Card/index';
+export {default as Carousel} from './Carousel/index';
+export {default as PageBanner} from './PageBanner/index';
+export {default as TaleCard} from './TaleCard/index'

@@ -1,0 +1,321 @@
+/* #region GLOBAL*/
+
+:root {
+    --alumni: "Alumni Sans Pinstripe", sans-serif;
+    --system: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.dossier-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    background-image: url("https://www.transparenttextures.com/patterns/maze-black.png");
+    border-top: 2px solid #bca875;
+    border-bottom: 2px solid #bca875;
+    color: white;
+    padding: 1.5rem;
+    gap: 1.5rem;
+}
+
+.dossier-content-title {
+    color: #c0c0c0;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 1px rgba(95, 85, 59, 1);
+    position: relative;
+    display: inline-block;
+}
+
+.dossier-content-title::before,
+.dossier-content-title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 20rem;
+    height: 3px;
+    background-color: #c0c0c0;
+    border-radius: 2rem;
+}
+
+.dossier-content-title::before {
+    left: -22rem;
+}
+
+.dossier-content-title::after {
+    right: -22rem;
+}
+
+/* #endregion*/
+
+/* #region TOP CONTENT*/
+.dossier-top-content {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.dossier-image-container {
+    position: relative;
+    width: 100vw;
+}
+
+.dossier-image-container img {
+    height: 70vh;
+    width: 100%;
+}
+
+.dossier-overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-box-shadow: inset 0px -100px 150px 95px rgba(0, 0, 0, .95);
+    -moz-box-shadow: inset 0px -100px 110px 95px rgba(0, 0, 0, .95);
+    box-shadow: inset 0px -100px 110px 95px rgba(0, 0, 0, 1);
+}
+
+.dossier-header {
+    display: grid;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.dossier-title {
+    background: #C0C0C0;
+    background: radial-gradient(ellipse farthest-corner at bottom center, #C0C0C0 0%, #A0A0A0 50%, #606060 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+
+}
+
+.dossier-title::before,
+.dossier-title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 12rem;
+    height: 4px;
+    background-color: #bca875;
+    border-radius: 2rem;
+}
+
+.dossier-title::before {
+    left: -210px;
+}
+
+.dossier-title::after {
+    right: -210px;
+}
+
+.dossier-subtitle {
+    color: #bca875;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    ;
+    font-size: xx-large;
+    text-transform: none;
+    text-shadow: 1px 2px 1px rgba(95, 85, 59, 1);
+    margin-top: -.5rem;
+}
+
+/*#endregion*/
+
+/* #region CENTER CONTENT*/
+
+.dossier-infobox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    border: 2px solid #313131;
+    border-radius: 1rem;
+    height: 100%;
+    background-color: rgb(17, 17, 17, .8);
+    width: 50%;
+}
+
+.dossier-section {
+    background-color: #1b1b1b;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-matter.png");
+
+    padding: 1.5rem;
+}
+
+.dossier-section p {
+    color: #c0c0c0;
+    font-family: var(--system);
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* #region INFOS*/
+.dossier-table {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid #313131;
+}
+
+.dossier-table-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 1rem;
+
+}
+
+.dossier-table-cell:last-child {
+    border-right: none;
+}
+
+.dossier-table-cell span {
+    color: #C0C0C0;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.dossier-table-cell a {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    color: #f1c33c;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    transition: transform .3s;
+}
+
+.dossier-table-cell a:hover {
+    transform: scale(1.1);
+}
+
+/* #endregion*/
+
+/* #region RELATIONSHIP*/
+.dossier-relationship {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 2px solid #313131;
+    padding-top: .5rem;
+    padding-bottom: .8rem;
+}
+
+.dossier-relationship-title {
+    color: #c0c0c0;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: .4rem;
+    padding-top: .4rem;
+    width: 100%;
+}
+
+.dossier-relationship-row {
+    display: flex;
+    gap: 3rem;
+    padding: .5rem 1.5rem;
+}
+
+/* #endregion*/
+
+/*#endregion*/
+
+/* #region BOTTOM CONTENT*/
+.dossier-history-header {
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.dossier-age-icon {
+    padding: 1rem 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom: none;
+    border: 1px solid #bca87500;
+}
+
+.dossier-age-icon:hover {
+    border: 1px solid #c0c0c0;
+    border-bottom: 0;
+    color:#c0c0c0;
+}
+
+.dossier-history-header .active {
+
+    border: 1px solid #bca875;
+    color: #bca875;
+}
+
+.dossier-history-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dossier-history-container {
+    background-color: #1b1b1b;
+    border-top: 1px solid #bca875;
+    border-bottom: 1px solid #bca875;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    height: 100%;
+    width: 85%;
+}
+
+.dossier-history-divide {
+    padding-bottom: 1.5rem;
+}
+
+.dossier-history-divide h2 {
+    font-family: var(--alumni);
+    font-size: x-large;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+.dossier-history-container p {
+    color: #c0c0c0;
+    font-family: var(--system);
+    text-indent: 1.5rem;
+}
+
+/* #endregion*/
+
+/* #region TALES CONTENT*/
+.dossier-tales-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #111111;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    gap: 1.5rem;
+}
+
+.dossier-tales-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    padding-bottom: 3rem;
+}
+
+/*#endregion*/

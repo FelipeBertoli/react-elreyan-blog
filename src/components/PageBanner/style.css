@@ -1,0 +1,61 @@
+.banner-container {
+    background-color: #111111;
+    background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #bca875;
+    padding: 3rem 0;
+}
+
+.banner-title {
+    color: #bca875;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0px #473f2c;
+}
+
+.banner-container span {
+    color: #c0c0c0;
+    font-size: 1.7rem;
+    text-align: center;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: bolder;
+    padding: 0 15%;
+}
+
+.banner-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0;
+}
+
+.banner-logo {
+    position: absolute;
+    width: 13%;
+}
+
+.rotate {
+    animation: spin 20s linear infinite;
+}
+
+.banner-board-image {
+    position: absolute;
+    height: fit-content;
+    width:14%;
+    transform:rotate(135deg) ;
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

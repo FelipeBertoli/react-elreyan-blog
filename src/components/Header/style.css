@@ -1,0 +1,61 @@
+/*header style.css */
+
+.header-container {
+    background-color: #1d1d1d;
+    background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+    position: fixed;
+    border-bottom: 1px solid #bca875;
+
+    padding-left: 3rem;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    height: 6vh;
+    z-index: 100;
+}
+
+.header-column {
+    display: flex; 
+    justify-content:space-between;
+    padding-left: 3rem;
+    padding-right: 6rem;
+    width: 100%;
+}
+
+.elreyan-logo {
+    width: 10%;
+    height: auto;
+    object-fit:contain;
+}
+
+.navbar-button-group {
+    display: flex; 
+    height: 100%;
+}
+
+.navbar-button-container {
+    color: #bca875;
+    background-color: transparent;
+    font-size: medium;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 1rem;
+    margin: 0 0.5rem;
+    transition: .7s;
+
+}
+
+.navbar-button-container:hover {
+    color: black;
+    background-color: #bca875;
+
+}
+
+.navbar-button-container.active {
+    color: black;
+    background-color: #bca875;
+}

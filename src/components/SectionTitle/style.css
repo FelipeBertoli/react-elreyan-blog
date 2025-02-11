@@ -1,0 +1,34 @@
+.section-title {
+    display: flex; 
+    align-items: center; 
+    flex: 1;
+    padding-bottom: 1rem;
+}
+
+.section-title h2 {
+    color: #bca875;
+    text-transform: uppercase;
+    margin: 0; 
+    white-space: nowrap;
+}
+
+.section-title .line {
+    flex-grow: 1;
+    height: 2px;
+    background: #bca875;
+    margin-left: 10px; 
+;
+}
+
+.section-title a{
+    color: #bca875;
+    border: 2px solid #bca875;
+    border-radius: 1rem;
+    padding: 0 .5rem;
+    transition: 0.5s;
+}
+
+.section-title a:hover {
+    background-color:#bca875;
+    color: #111111;
+}

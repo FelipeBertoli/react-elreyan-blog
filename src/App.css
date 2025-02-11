@@ -2,6 +2,10 @@
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css');
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
 
+:root {
+  --alumni:"Alumni Sans Pinstripe", sans-serif;
+}
+
 * {
   margin: 0;
   font-family: 'Oswald', sans-serif;
@@ -11,7 +15,7 @@
 .icon-group {
   display: flex;
   align-items: center;
-  padding: 0 3rem;
+  padding: 0 8rem;
   column-gap: 1.5rem;
 }
 
@@ -23,41 +27,61 @@
 }
 
 .icon:hover {
-  color: #0056ce; 
+  color: #f1c33c;
   transform: scale(1.2);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.black-line {
+  background: rgb(0,0,0);
+  width: 100%;
+  height: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.page-container {
+  background-color: #111111;
+  background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
+  height: fit-content;
+  min-height: 60vh;
+  padding-top: 3.5rem;
+  padding-bottom: .1rem;
 }
 
-.App-header {
-  background-color: #5688eb;
-  min-height: 100vh;
+.page-content {
+  margin: 2rem 8rem;
+}
+
+.border {
+  border-bottom: 1px solid #bca875;
+}
+
+.page-section {
+  padding: 1rem;
+  background-color: #111111;
+  border-radius: 10px;
+  margin: .5rem 0;
+}
+
+.page-grid {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 2rem;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+.page-subsection {
+  margin-bottom: 1rem;
+  margin-left: .5rem;
+  margin-right: .5rem ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.page-subsection h2 {
+  border-bottom: 2px solid #c0c0c0;
+  color: #c0c0c0c0;
+  font-size: 1.3rem;
+  padding-bottom: .2rem;
+  margin-bottom: 1rem;
 }

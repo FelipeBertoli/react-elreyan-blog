@@ -1,37 +1,41 @@
 import "./App.css";
-import { Footer, Navbar } from "./components/Components";
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { Footer, Header } from "./components/Components";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 
 import Home from "./screens/Home/index";
-import Elreyan from "./screens/Elreyan";
+import Codex from "./screens/Codex/index";
+import Tales from "./screens/Tales/index";
+import World from "./screens/World/index";
+import Bestiary from "./screens/Codex/Bestiary";
+import Occult from "./screens/Occult";
+import Dossier from "./screens/Dossier";
 
 function App() {
   return (
     <Router>
-      <RouteWrapper />
-    </Router>
-  );
-}
-
-function RouteWrapper() {
-  const location = useLocation();
-  const isElreyan = location.pathname === "/elreyan";
-
-  return (
-    <div className={`App ${isElreyan ? "elreyan-theme" : ""}`}>
-      <Navbar />
+      <Header/>
       <Routes style={styles.container}>
         <Route path="/" element={<Home />} />
-        <Route path="/elreyan" element={<Elreyan />} />
+        <Route path="/novidades" element={<Home />} />
+        <Route path="/contos" element={<Tales/>} />
+        <Route path="/mundo" element={<World/>} />
+        <Route path="/oculto" element={<Occult/>} />
+        <Route path="/codex" element={<Codex/>}/>
+        <Route path="/codex/bestiario" element={<Bestiary/>}/>
+        <Route path="/dossier" element={<Dossier/>}/>
       </Routes>
       <Footer />
-    </div>
+    </Router>
   );
 }
 
 const styles = {
   container: {
-    backgroundColor: 'black',
+    backgroundColor: "black",
     height: "100vh",
   },
 };

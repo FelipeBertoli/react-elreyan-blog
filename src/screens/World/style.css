@@ -1,0 +1,70 @@
+.teste {
+    display: flex;
+    justify-content: center;
+}
+.world-map-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+
+}
+.world-map {
+    height: 30rem;
+    width: 100%;
+    object-fit: contain;
+    border: 3px solid #bca875;
+    border-radius: 1.5rem;
+}
+
+.age-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.age-group .line {
+    border-bottom: 5px solid #f1c33c;
+    border-radius: 1rem;
+    width: 5rem;
+}
+
+.age-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .7s ease; 
+}
+
+.age-item span{
+    background: #c0c0c0;
+    border-radius: 10px;
+    color: #111111;
+    font-family: var(--alumni);
+    font-size: larger;
+    font-weight: bold;
+    padding: .1rem .4rem;
+    transition: .7s ease; 
+}
+
+.age-icon {
+    fill: #c0c0c0 !important;
+    transition: .7s ease; 
+  }
+
+  .age-item:hover {
+    transform: scale(1.1);
+  }
+  
+.age-item:hover .age-icon {
+    fill: #bca875 !important; /* Cor ao passar o mouse */
+}
+
+.age-item:hover span {
+    background: #bca875 !important; /* Cor ao passar o mouse */
+    color: black;
+}
+
+  
+  

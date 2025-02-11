@@ -1,0 +1,46 @@
+.bestiary-subsection {
+    margin-bottom: 1rem;
+    margin-left: .5rem;
+    margin-right: .5rem ;
+}
+
+.bestiary-subsection h2 {
+    border-bottom: 2px solid #c0c0c0;
+    color: #c0c0c0c0;
+    font-size: 1.3rem;
+    padding-bottom: .2rem;
+    margin-bottom: .5rem;
+}
+
+.bestiary-grid {
+    column-count: 5;
+    line-height: 4rem;
+    list-style: none;
+}
+
+.bestiary-anchor {
+    display: flex;
+    align-items: center;
+    
+    gap: .7rem;
+}
+
+.bestiary-anchor img {
+    width: 13%;
+    border: 2px solid #bca875;
+    border-radius: 10rem;
+}
+
+.bestiary-anchor span {
+    color: whitesmoke;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .6s;
+}
+
+.bestiary-anchor:hover span {
+    color: #bca875;
+    transform: scale(1.1);
+}

@@ -1,0 +1,45 @@
+.card-container {
+    background-color: #111111;
+    background-image: url("https://www.transparenttextures.com/patterns/maze-black.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 0.8rem;
+    height: 7vh fit-content;
+    width: 13.5%;
+    color: white;
+    border-top: 2px solid #bca875;
+    border-bottom: 2px solid #bca875;
+    padding: 0 0.7rem;
+    padding-bottom: 2rem;
+    transition: 1s;
+}
+
+.card-image {
+    width:100%;
+
+}
+.card-title {
+    background-color: #bca875;
+    border-radius: 2rem;
+    font-weight: 600;
+    font-size: large;
+    color: #111111;
+    padding: 0.1rem 0.6rem;
+    margin-bottom: 0.8rem;
+    text-align: center;
+}
+
+.card-description {
+    height: 20%;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    text-align: center;
+}
+
+.card-container:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
