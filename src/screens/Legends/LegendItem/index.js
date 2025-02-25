@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
-import RelationItem from "./RelationItem/index";
-import { TaleCard } from "../../components/Components";
+import RelationItem from "./RelationItem";
+import { TaleCard } from "../../../components/Components";
 
-export default function Dossier() {
+export default function lendaItem() {
   const talesData = [
     {
       title: "Conto",
@@ -31,17 +31,17 @@ export default function Dossier() {
 
   return (
     <div className="page-container">
-      <div className="dossier-top-content">
-        <div className="dossier-image-container">
+      <div className="lendas-top-content">
+        <div className="lendas-image-container">
           <img
             src="https://s1.1zoom.me/big0/641/Monsters_Lava_504865.jpg"
             alt=""
           />
         </div>
-        <div className="dossier-overlay">
-          <div className="dossier-header">
-            <h1 className="dossier-title">Avelokanis</h1>
-            <b className="dossier-subtitle">O Colosso de Cinzas</b>
+        <div className="lendas-overlay">
+          <div className="lendas-header">
+            <h1 className="lendas-title">Avelokanis</h1>
+            <b className="lendas-subtitle">O Colosso de Cinzas</b>
           </div>
         </div>
 
@@ -49,28 +49,28 @@ export default function Dossier() {
 
       <div className="black-line"></div>
 
-      <div className="dossier-content">
-        <h1 className="dossier-content-title">Sobre</h1>
-        <div className="dossier-infobox">
-          <div className="dossier-table">
-            <div className="dossier-table-cell">
+      <div className="lendas-content">
+        <h1 className="lendas-content-title">Sobre</h1>
+        <div className="lendas-infobox">
+          <div className="lendas-table">
+            <div className="lendas-table-cell">
               <span>Classe</span>
               <a href="/">Entidade</a>
             </div>
-            <div className="dossier-table-cell">
+            <div className="lendas-table-cell">
               <span>Denominação</span>
               <a href="/">Aspecto</a>
             </div>
-            <div className="dossier-table-cell">
+            <div className="lendas-table-cell">
               <span>Região</span>
               <a href="/">Qoa</a>
             </div>
-            <div className="dossier-table-cell">
+            <div className="lendas-table-cell">
               <span>Período</span>
               <a href="/">Era dos Elementos</a>
             </div>
           </div>
-          <div className="dossier-section">
+          <div className="lendas-section">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
               diam metus, posuere vel fringilla sed, rutrum eu arcu. Sed porta
@@ -85,9 +85,9 @@ export default function Dossier() {
               porta lacinia nec nec enim. Mauris et arcu odio.
             </p>
           </div>
-          <div className="dossier-relationship">
-            <h3 className="dossier-relationship-title">Relações</h3>
-            <div className="dossier-relationship-row">
+          <div className="lendas-relationship">
+            <h3 className="lendas-relationship-title">Relações</h3>
+            <div className="lendas-relationship-row">
               <RelationItem label="Singularidades" />
               <RelationItem label="Filhos das Cinzas" />
               <RelationItem label="Mestres da Rocha" />
@@ -97,35 +97,35 @@ export default function Dossier() {
         </div>
       </div>
 
-      <div className="dossier-tales-content">
-        <h1 className="dossier-content-title">Contos</h1>
-        <div className="dossier-tales-container">
+      <div className="lendas-tales-content">
+        <h1 className="lendas-content-title">Memórias</h1>
+        <div className="lendas-tales-container">
           {talesData.map((tale) => {
             return <TaleCard data={tale} />;
           })}
         </div>
       </div>
 
-      <div className="dossier-content">
-        <h1 className="dossier-content-title">História</h1>
-        <div className="dossier-history-section">
-          <div className="dossier-history-header">
-            <a
+      <div className="lendas-content">
+        <h1 className="lendas-content-title">História</h1>
+        <div className="lendas-history-section">
+          <div className="lendas-history-header">
+            <button
               onClick={() => console.log("")}
-              className="dossier-age-icon active"
+              className="lendas-age-icon active"
             >
               Era dos Elementos
-            </a>
-            <a onClick={() => console.log("")} className="dossier-age-icon">
+            </button>
+            <button onClick={() => console.log("")} className="lendas-age-icon">
               Era da Insurgência
-            </a>
-            <a onClick={() => console.log("")} className="dossier-age-icon">
+            </button>
+            <button onClick={() => console.log("")} className="lendas-age-icon">
               Era da Ressurgência
-            </a>
+            </button>
           </div>
-          <div className="dossier-history-container">
-            <div className="dossier-history-divide">
-              <h2 className="dossier-history-subtitle">Idade</h2>
+          <div className="lendas-history-container">
+            <div className="lendas-history-divide">
+              <h2 className="lendas-history-subtitle">Idade</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vestibulum feugiat fermentum mauris. Suspendisse erat ante,
@@ -158,7 +158,7 @@ export default function Dossier() {
                 ipsum vitae ornare congue.
               </p>
             </div>
-            <div className="dossier-history-divide">
+            <div className="lendas-history-divide">
               <h2>Idade</h2>
               <div className="line"></div>
               <p>

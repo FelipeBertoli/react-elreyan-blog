@@ -240,6 +240,86 @@ m-5089 -5 c263 -128 568 -130 867 -7 l53 22 577 -577 576 -576 -23 -38 c-42
         <SectionTitle label="Geografia" isLink={true} />
 
         </div>
+        <div className="page-section">
+          <SectionTitle label="Os Povos" />
+          <div className="page-subsection">
+            <h2>Raças Antigas</h2>
+            <div className="page-grid">
+              <Card
+                label="Dhelgu"
+                link="/lendas"
+                source="/assets/icons/folk-icon.png"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+              />
+              <Card
+                label="Haldërysh"
+                link="/lendas"
+                source="/assets/icons/folk-icon.png"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+              />
+              <Card
+                label="Povo Herbívoro"
+                link="/lendas"
+                source="/assets/icons/folk-icon.png"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+              />
+              <Card
+                label="Povo Inseto"
+                link="/lendas"
+                source="/assets/icons/folk-icon.png"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+              />
+              <Card
+                label="Povo Peixe"
+                link="/lendas"
+                source="/assets/icons/folk-icon.png"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+              />
+            </div>
+          </div>
+          <div className="page-subsection">
+            <h2>Raças Jovens</h2>
+            <div className="page-grid">
+            <Card
+              label="Auvérios"
+              link="/lendas"
+              source="/assets/icons/folk-icon.png"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            />
+            <Card
+              label="Duopavna"
+              link="/lendas"
+              source="/assets/icons/folk-icon.png"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            />
+            <Card
+              label="Homens"
+              link="/lendas"
+              source="/assets/icons/folk-icon.png"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            />
+            <Card
+              label="Tai Myn"
+              link="/lendas"
+              source="/assets/icons/folk-icon.png"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            />
+            <Card
+              label="Vand'ai"
+              link="/lendas"
+              source="/assets/icons/folk-icon.png"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            />
+            <Card
+              label="Lynn'jau"
+              link="/lendas"
+              source="/assets/icons/folk-icon.png"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            />
+          </div>
+          </div>
+        </div>
+        
 
       </div>
     </div>

@@ -6,13 +6,12 @@
     justify-content: center;
     flex-wrap: wrap;
     border-radius: 0.8rem;
-    height: 7vh fit-content;
     width: 13.5%;
     color: white;
     border-top: 2px solid #bca875;
     border-bottom: 2px solid #bca875;
     padding: 0 0.7rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     transition: 1s;
 }
 

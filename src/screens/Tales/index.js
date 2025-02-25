@@ -37,7 +37,7 @@ export default function Tales() {
   return (
     <div className="page-container">
       <PageBanner
-        title="Contos"
+        title="Memórias"
         icon="/assets/logos/tales-logo.png"
         description="Descubra o que os livros de história não revelam: a origem esquecida de lendas, segredos sombrios e a perspectiva de figuras que moldaram o destino de Elreyan."
       />
@@ -48,10 +48,10 @@ export default function Tales() {
             <h2>A Era dos Elementos</h2>
             <div className="tales-page-content">
               {talesData.map((tale) => {
-                return <TaleCard data={tale} />;
+                return <TaleCard data={tale} />
               })}
                             {talesData.map((tale) => {
-                return <TaleCard data={tale} />;
+                return <TaleCard data={tale} />
               })}
             </div>
           </div>
@@ -59,7 +59,7 @@ export default function Tales() {
             <h2>A Era da Ascensão</h2>
             <div className="tales-page-content">
               {talesData.map((tale) => {
-                return <TaleCard data={tale} />;
+                return <TaleCard data={tale} />
               })}
             </div>
           </div>
@@ -67,7 +67,7 @@ export default function Tales() {
             <h2>A Era da Colheita</h2>
             <div className="tales-page-content">
               {talesData.map((tale) => {
-                return <TaleCard data={tale} />;
+                return <TaleCard data={tale} />
               })}
             </div>
           </div>

@@ -9,92 +9,14 @@ export default function Codex() {
               description="O Códex é um compêndio que revela os segredos do Oculto: o intricado sistema de forças invisíveis que rege o universo.  
               Explore desde o papel das menores feras na arquitetura cósmica até os conceitos e entidades que sustentam a própria realidade."/>
       <div className="page-content">
-      <div className="page-section">
-          <SectionTitle label="Os Povos" />
-          <div className="page-subsection">
-            <h2>Raças Antigas</h2>
-            <div className="page-grid">
-              <Card
-                label="Dhelgu"
-                link="/dossier"
-                source="/assets/icons/folk-icon.png"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-              />
-              <Card
-                label="Haldërysh"
-                link="/dossier"
-                source="/assets/icons/folk-icon.png"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-              />
-              <Card
-                label="Povo Herbívoro"
-                link="/dossier"
-                source="/assets/icons/folk-icon.png"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-              />
-              <Card
-                label="Povo Inseto"
-                link="/dossier"
-                source="/assets/icons/folk-icon.png"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-              />
-              <Card
-                label="Povo Peixe"
-                link="/dossier"
-                source="/assets/icons/folk-icon.png"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-              />
-            </div>
-          </div>
-          <div className="page-subsection">
-            <h2>Raças Jovens</h2>
-            <div className="page-grid">
-            <Card
-              label="Auvérios"
-              link="/dossier"
-              source="/assets/icons/folk-icon.png"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-            />
-            <Card
-              label="Duopavna"
-              link="/dossier"
-              source="/assets/icons/folk-icon.png"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-            />
-            <Card
-              label="Homens"
-              link="/dossier"
-              source="/assets/icons/folk-icon.png"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-            />
-            <Card
-              label="Tai Myn"
-              link="/dossier"
-              source="/assets/icons/folk-icon.png"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-            />
-            <Card
-              label="Vand'ai"
-              link="/dossier"
-              source="/assets/icons/folk-icon.png"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-            />
-            <Card
-              label="Lynn'jau"
-              link="/dossier"
-              source="/assets/icons/folk-icon.png"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-            />
-          </div>
-          </div>
-        </div>
+
         <div className="page-section">
           <SectionTitle label="Bestiário" route="codex/bestiario"/>
           <div className="page-grid">
-            <Card label="Amaldiçoados" link="/dossier" source="/assets/icons/bestiary-icon.png"  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
-            <Card label="Carniceiros" link="/dossier" source="/assets/icons/bestiary-icon.png"  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
-            <Card label="Feras" link="/dossier" source="/assets/icons/bestiary-icon.png"  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
-            <Card label="Vhatoorin" link="/dossier" source="/assets/icons/bestiary-icon.png"  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
+            <Card label="Amaldiçoados" link="/lendas" source="/assets/icons/bestiary-icon.png"  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
+            <Card label="Carniceiros" link="/lendas" source="/assets/icons/bestiary-icon.png"  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
+            <Card label="Feras" link="/lendas" source="/assets/icons/bestiary-icon.png"  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
+            <Card label="Vhatoorin" link="/lendas" source="/assets/icons/bestiary-icon.png"  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
           </div>
         </div>
 
@@ -113,11 +35,11 @@ export default function Codex() {
                   <SectionTitle label="Entidades"/>
                   <div className="page-grid">
                     <Card label="Ankayat" link="/codex" source="/assets/icons/eclipse-icon.png"  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
-                    <Card label="Aspectos" link="/dossier" source="/assets/icons/eclipse-icon.png"  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
-                    <Card label="Deuses" link="/dossier" source="/assets/icons/eclipse-icon.png"  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
-                    <Card label="Exordiais" link="/dossier" source="/assets/icons/eclipse-icon.png"  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
-                    <Card label="Nyfahol" link="/dossier" source="/assets/icons/eclipse-icon.png"  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
-                    <Card label="Singularidades" link="/dossier" source="/assets/icons/eclipse-icon.png"  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
+                    <Card label="Aspectos" link="/lendas" source="/assets/icons/eclipse-icon.png"  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
+                    <Card label="Deuses" link="/lendas" source="/assets/icons/eclipse-icon.png"  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
+                    <Card label="Exordiais" link="/lendas" source="/assets/icons/eclipse-icon.png"  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
+                    <Card label="Nyfahol" link="/lendas" source="/assets/icons/eclipse-icon.png"  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
+                    <Card label="Singularidades" link="/lendas" source="/assets/icons/eclipse-icon.png"  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
                   </div>
                 </div>
       </div>

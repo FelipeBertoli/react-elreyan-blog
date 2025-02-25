@@ -10,9 +10,10 @@ import Home from "./screens/Home/index";
 import Codex from "./screens/Codex/index";
 import Tales from "./screens/Tales/index";
 import World from "./screens/World/index";
-import Bestiary from "./screens/Codex/Bestiary";
-import Occult from "./screens/Occult";
-import Dossier from "./screens/Dossier";
+import Bestiary from "./screens/World/SubPages/Bestiary";
+import Legends from "./screens/Legends/index";
+import LegendItem from "./screens/Legends/LegendItem/index";
+import About from "./screens/About/index";
 
 function App() {
   return (
@@ -23,10 +24,11 @@ function App() {
         <Route path="/novidades" element={<Home />} />
         <Route path="/contos" element={<Tales/>} />
         <Route path="/mundo" element={<World/>} />
-        <Route path="/oculto" element={<Occult/>} />
         <Route path="/codex" element={<Codex/>}/>
         <Route path="/codex/bestiario" element={<Bestiary/>}/>
-        <Route path="/dossier" element={<Dossier/>}/>
+        <Route path="/lendas" element={<Legends/>}/>
+        <Route path="/lendas/a" element={<LegendItem/>}/>
+        <Route path="/sobre" element={<About/>}/>
       </Routes>
       <Footer />
     </Router>

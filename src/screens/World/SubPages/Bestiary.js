@@ -1,7 +1,7 @@
 import React from 'react'
-import "./style.css"
-import { PageBanner, SectionTitle } from '../../components/Components'
-import { BestiaryList } from '../../utils/lists/BestiaryList'
+import "../style.css"
+import { PageBanner, SectionTitle } from '../../../components/Components'
+import { BestiaryList } from '../../../utils/lists/BestiaryList'
 
 export default function Bestiary() {
 

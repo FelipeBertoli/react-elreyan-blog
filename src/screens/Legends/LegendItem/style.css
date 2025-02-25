@@ -5,7 +5,7 @@
     --system: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.dossier-content {
+.lendas-content {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -18,7 +18,7 @@
     gap: 1.5rem;
 }
 
-.dossier-content-title {
+.lendas-content-title {
     color: #c0c0c0;
     text-align: center;
     text-transform: uppercase;
@@ -27,8 +27,8 @@
     display: inline-block;
 }
 
-.dossier-content-title::before,
-.dossier-content-title::after {
+.lendas-content-title::before,
+.lendas-content-title::after {
     content: '';
     position: absolute;
     top: 50%;
@@ -38,35 +38,35 @@
     border-radius: 2rem;
 }
 
-.dossier-content-title::before {
+.lendas-content-title::before {
     left: -22rem;
 }
 
-.dossier-content-title::after {
+.lendas-content-title::after {
     right: -22rem;
 }
 
 /* #endregion*/
 
 /* #region TOP CONTENT*/
-.dossier-top-content {
+.lendas-top-content {
     height: fit-content;
     display: flex;
     flex-wrap: wrap;
     position: relative;
 }
 
-.dossier-image-container {
+.lendas-image-container {
     position: relative;
     width: 100vw;
 }
 
-.dossier-image-container img {
+.lendas-image-container img {
     height: 70vh;
     width: 100%;
 }
 
-.dossier-overlay {
+.lendas-overlay {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,13 +79,13 @@
     box-shadow: inset 0px -100px 110px 95px rgba(0, 0, 0, 1);
 }
 
-.dossier-header {
+.lendas-header {
     display: grid;
     padding-bottom: 1rem;
     text-align: center;
 }
 
-.dossier-title {
+.lendas-title {
     background: #C0C0C0;
     background: radial-gradient(ellipse farthest-corner at bottom center, #C0C0C0 0%, #A0A0A0 50%, #606060 100%);
     -webkit-background-clip: text;
@@ -97,8 +97,8 @@
 
 }
 
-.dossier-title::before,
-.dossier-title::after {
+.lendas-title::before,
+.lendas-title::after {
     content: '';
     position: absolute;
     top: 50%;
@@ -108,15 +108,15 @@
     border-radius: 2rem;
 }
 
-.dossier-title::before {
+.lendas-title::before {
     left: -210px;
 }
 
-.dossier-title::after {
+.lendas-title::after {
     right: -210px;
 }
 
-.dossier-subtitle {
+.lendas-subtitle {
     color: #bca875;
     font-family: "Alumni Sans Pinstripe", sans-serif;
     ;
@@ -130,7 +130,7 @@
 
 /* #region CENTER CONTENT*/
 
-.dossier-infobox {
+.lendas-infobox {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,14 +142,14 @@
     width: 50%;
 }
 
-.dossier-section {
+.lendas-section {
     background-color: #1b1b1b;
     background-image: url("https://www.transparenttextures.com/patterns/dark-matter.png");
 
     padding: 1.5rem;
 }
 
-.dossier-section p {
+.lendas-section p {
     color: #c0c0c0;
     font-family: var(--system);
     font-size: 1rem;
@@ -157,14 +157,14 @@
 }
 
 /* #region INFOS*/
-.dossier-table {
+.lendas-table {
     display: flex;
     align-items: center;
     justify-content: space-around;
     border-bottom: 2px solid #313131;
 }
 
-.dossier-table-cell {
+.lendas-table-cell {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,11 +174,11 @@
 
 }
 
-.dossier-table-cell:last-child {
+.lendas-table-cell:last-child {
     border-right: none;
 }
 
-.dossier-table-cell span {
+.lendas-table-cell span {
     color: #C0C0C0;
     font-family: "Alumni Sans Pinstripe", sans-serif;
     font-size: larger;
@@ -186,7 +186,7 @@
     text-transform: uppercase;
 }
 
-.dossier-table-cell a {
+.lendas-table-cell a {
     font-family: "Alumni Sans Pinstripe", sans-serif;
     color: #f1c33c;
     font-size: 1.7rem;
@@ -194,14 +194,14 @@
     transition: transform .3s;
 }
 
-.dossier-table-cell a:hover {
+.lendas-table-cell a:hover {
     transform: scale(1.1);
 }
 
 /* #endregion*/
 
 /* #region RELATIONSHIP*/
-.dossier-relationship {
+.lendas-relationship {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -211,7 +211,7 @@
     padding-bottom: .8rem;
 }
 
-.dossier-relationship-title {
+.lendas-relationship-title {
     color: #c0c0c0;
     font-family: "Alumni Sans Pinstripe", sans-serif;
     font-size: larger;
@@ -225,7 +225,7 @@
     width: 100%;
 }
 
-.dossier-relationship-row {
+.lendas-relationship-row {
     display: flex;
     gap: 3rem;
     padding: .5rem 1.5rem;
@@ -236,39 +236,44 @@
 /*#endregion*/
 
 /* #region BOTTOM CONTENT*/
-.dossier-history-header {
+.lendas-history-header {
     display: flex;
     gap: 2rem;
     cursor: pointer;
 }
 
-.dossier-age-icon {
+.lendas-age-icon {
     padding: 1rem 2rem;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     border-bottom: none;
     border: 1px solid #bca87500;
+    background: #1b1b1b;
+    font-size:small;
+    text-transform: uppercase;
+    transition: 1s;
 }
 
-.dossier-age-icon:hover {
+.lendas-age-icon:hover {
     border: 1px solid #c0c0c0;
-    border-bottom: 0;
+    border-bottom: none;
     color:#c0c0c0;
+    cursor: pointer;
 }
 
-.dossier-history-header .active {
+.lendas-history-header .active {
 
     border: 1px solid #bca875;
     color: #bca875;
 }
 
-.dossier-history-section {
+.lendas-history-section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.dossier-history-container {
+.lendas-history-container {
     background-color: #1b1b1b;
     border-top: 1px solid #bca875;
     border-bottom: 1px solid #bca875;
@@ -278,11 +283,11 @@
     width: 85%;
 }
 
-.dossier-history-divide {
+.lendas-history-divide {
     padding-bottom: 1.5rem;
 }
 
-.dossier-history-divide h2 {
+.lendas-history-divide h2 {
     font-family: var(--alumni);
     font-size: x-large;
     font-weight: 600;
@@ -291,7 +296,7 @@
 
 
 
-.dossier-history-container p {
+.lendas-history-container p {
     color: #c0c0c0;
     font-family: var(--system);
     text-indent: 1.5rem;
@@ -300,7 +305,7 @@
 /* #endregion*/
 
 /* #region TALES CONTENT*/
-.dossier-tales-content {
+.lendas-tales-content {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -310,7 +315,7 @@
     gap: 1.5rem;
 }
 
-.dossier-tales-container {
+.lendas-tales-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -319,3 +324,32 @@
 }
 
 /*#endregion*/
+
+.lendas-relation {
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width: 6rem;
+    text-align: center;
+}
+
+.lendas-relation img {
+    border: 3px solid #bca875;
+    border-radius: 12rem;
+    margin-bottom: .3rem;
+    width: 4rem;
+    transition: transform .3s;
+}
+
+.lendas-relation span {
+    color: #bca875;
+    font-family: var(--alumni);
+    font-size: 1.1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.lendas-relation:hover img {
+    transform:scale(1.1);
+}
